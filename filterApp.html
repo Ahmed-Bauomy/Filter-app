@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>Filter Application</title>
+        <link rel="stylesheet"href="CSS/bootstrap.css">
+        <link rel="stylesheet" href="CSS/font-awesome.css">
+        <!--<script src="js/Script.js"></script>-->
+        <script src="js/Script2.js"></script>
+        <style>
+            body{
+                background-color: rgb(236, 225, 225);
+            }
+            .divStyle{
+                border: 2px solid cyan;
+                background-color: white;
+                width: 250px;
+                padding: 15px;
+                margin-right: 20px;
+            }
+            .jumbotron{
+               padding: 20px;
+            }
+            input{
+                margin-top: 10px;
+            }
+            div{
+                margin-top: 13px;
+            }
+        </style>
+    </head>
+    <body>
+    <div class="container mt-5">
+        <p class="jumbotron lead bg-info">Filter App</p>
+        <div class="row mt-5 col-12">
+                <div class=" col-6" > 
+                <textarea  rows="15" class="border-info p-1" style="width: 90%;"></textarea>
+                </div>
+
+                <div class="col-6  text-info font-weight-bold pt-5 " style="width: 10%;">
+                 <input name="fChoice" type="checkbox"><span>Error code</span><br>
+                 <input name="fChoice" type="checkbox" ><span>Description</span><br>
+                 <input class="btn btn-info " type="button" value="filter">
+                </div>
+            
+         </div><!--end of row-->
+         <div class="row col-12">
+            <div class="row mt-5 col-12" id="result">
+
+            </div>
+         </div>
+     
+    </div><!--end of container-->
+
+
+
+
+
+
+
+
+     <br><br><br><br><br>
+     <script src="js/JQuery-3.3.1.min.js"></script>
+     <script src="js/popper.js"></script>
+     <script src="js/bootstrap.js"></script>
+    </body>
+</html>
